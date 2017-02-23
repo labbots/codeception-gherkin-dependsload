@@ -1,0 +1,25 @@
+{
+    "name": "labbots/codeception-gherkin-dependsload",
+    "description": "Codeception extension for loading dependent scenarios in Gherkin tests",
+    "keywords": ["codeception", "extension", "gherkin", "depends", "dependsload"],
+    "homepage": "https://github.com/labbots/codeception-gherkin-dependsload",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Labbots",
+            "email": "admin@labbots.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5",
+        "codeception/codeception": ">=2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Extension\\": "src/"
+        }
+    }
+}
